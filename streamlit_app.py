@@ -68,9 +68,9 @@ else:
 if submitted:
     #제출내용을 웹에 바로 보여줍니다.
     st.write(f"""
-            날짜: {d}
-            요일: {weekdays}
-            메뉴이름: {menu}
-            별점: {star}
-            의견: {comment}
+            날짜: {d}\n
+            요일: {weekdays}\n
+            메뉴이름: {menu}\n
+            별점: {star}\n
+            의견: {comment}\n
             """)
