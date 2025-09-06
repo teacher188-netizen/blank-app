@@ -14,7 +14,7 @@ st.dataframe(df)
 st.write("오늘의 메뉴를 표 형태로 확인할 수 있어요.")
 #오늘 날짜 불러오기
 dt = str(date.today())
-write(dt)
+st.write(dt)
 today_row = df.loc[df['급식일자']== '2025-09-05']
 st.write(today_row)
 
